@@ -34,7 +34,7 @@ async def main():
     "cogs.generateur_deblocage", "cogs.generateur_pitch", "cogs.generateur_declencheurs",
     "cogs.generateur_miniscene_interactif", "cogs.datamuse_recherche",
     "cogs.menu_plumy", "cogs.correction"
-]
+    ]
   for ext in extensions:
         try:
             if ext in bot.extensions:
