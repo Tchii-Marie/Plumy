@@ -26,7 +26,7 @@ async def main():
     keep_alive()  # 🔄 Lancer dès le début
     print("✅ Serveur keep_alive lancé")
   
-  extensions = [
+    extensions = [
     "cogs.fiche", "cogs.roman", "cogs.univers", "cogs.acte", "cogs.scene",
     "cogs.titre", "cogs.pourquoi", "cogs.atelier", "cogs.generateur_nom",
     "cogs.generateur_intrigue", "cogs.generateur_personnages", "cogs.generateur_lieux",
