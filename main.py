@@ -35,7 +35,7 @@ async def main():
     "cogs.generateur_miniscene_interactif", "cogs.datamuse_recherche",
     "cogs.menu_plumy", "cogs.correction"
     ]
-  for ext in extensions:
+    for ext in extensions:
         try:
             if ext in bot.extensions:
                 await bot.reload_extension(ext)
